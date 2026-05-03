@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Machine — Lecteur</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --ink-soft: #555;
+      --ink-fade: #999;
+      --bg: #f9f7f1;
+      --border: #1a1a1a;
+      --accent: #1a1a1a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+    .app-bar {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--bg); border-bottom: 2px solid var(--border);
+      padding: 10px 16px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .app-bar h1 { font-size: 15px; letter-spacing: 1px; text-transform: uppercase; }
+    .app-bar .progress-text { font-size: 12px; color: var(--ink-soft); font-family: monospace; }
+
+    .progress-bar-wrap { height: 4px; background: #ddd; }
+    .progress-bar-fill { height: 4px; background: var(--ink); transition: width .3s; }
+
+    /* Formation list */
+    .formations-list { padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+    .formation-card {
+      border: 2px solid var(--border); padding: 14px 16px; cursor: pointer;
+      background: white; border-radius: 2px;
+    }
+    .formation-card:active { background: #f0ede6; }
+    .formation-card h2 { font-size: 16px; margin-bottom: 4px; }
+    .formation-card .meta { font-size: 12px; color: var(--ink-soft); font-family: monospace; }
+    .formation-card .prog { font-size: 12px; color: var(--ink-soft); font-family: monospace; margin-top: 6px; }
+
+    /* Back button */
+    .back-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 13px; cursor: pointer; padding: 6px 0; color: var(--ink-soft);
+      background: none; border: none; font-family: monospace;
+    }
+    .back-btn:active { color: var(--ink); }
+
+    /* Steps */
+    .steps-view { padding: 16px; }
+    .step-block { margin-bottom: 18px; border: 2px solid var(--border); background: white; }
+    .step-head {
+      width: 100%; text-align: left; background: none; border: none;
+      padding: 12px 14px; font-size: 14px; font-weight: bold; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .step-head:active { background: #f0ede6; }
+    .step-arrow { font-size: 11px; font-family: monospace; transition: transform .15s; }
+    .step-arrow.open { transform: rotate(180deg); }
+
+    /* Sub-lessons */
+    .sub-list { border-top: 1px solid #ccc; }
+    .sub-item {
+      padding: 10px 14px; border-bottom: 1px solid #eee; cursor: pointer;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .sub-item:last-child { border-bottom: none; }
+    .sub-item:active { background: #f0ede6; }
+    .sub-item.active { background: #f0ede6; }
+    .sub-check {
+      width: 18px; height: 18px; border: 2px solid var(--border);
+      border-radius: 2px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+      font-size: 11px; cursor: pointer;
+    }
+    .sub-check.done { background: var(--ink); color: white; }
+    .sub-title { font-size: 14px; flex: 1; }
+    .sub-count { font-size: 11px; color: var(--ink-fade); font-family: monospace; }
+
+    /* Videos */
+    .videos-view { padding: 16px; }
+    .videos-view h3 { font-size: 14px; font-weight: bold; margin-bottom: 12px; }
+    .video-card {
+      border: 2px solid var(--border); margin-bottom: 12px; background: white; cursor: pointer;
+    }
+    .video-card:active { background: #f0ede6; }
+    .video-thumb-wrap { position: relative; aspect-ratio: 16/9; overflow: hidden; }
+    .video-thumb-wrap img { width: 100%; height: 100%; object-fit: cover; }
+    .video-thumb-overlay {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,.25);
+    }
+    .play-icon {
+      width: 48px; height: 48px; border-radius: 50%; background: rgba(255,255,255,.9);
+      display: flex; align-items: center; justify-content: center; font-size: 20px;
+    }
+    .video-card.watched .video-thumb-overlay { background: rgba(0,0,0,.5); }
+    .video-card.watched .play-icon { opacity: .6; }
+    .video-info { padding: 10px 12px; }
+    .video-title { font-size: 13px; font-weight: bold; margin-bottom: 4px; line-height: 1.3; }
+    .video-meta { font-size: 11px; color: var(--ink-soft); font-family: monospace; margin-bottom: 4px; }
+    .video-note { font-size: 11px; color: var(--ink-soft); line-height: 1.4; }
+    .watched-badge {
+      display: inline-block; font-size: 10px; font-family: monospace;
+      border: 1px solid var(--ink-soft); border-radius: 2px; padding: 1px 5px;
+      color: var(--ink-soft); margin-bottom: 4px;
+    }
+
+    /* Player */
+    .player-view { padding: 16px; }
+    .player-wrap { position: relative; aspect-ratio: 16/9; background: black; margin-bottom: 12px; }
+    .player-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+    .player-title { font-size: 14px; font-weight: bold; margin-bottom: 6px; }
+    .player-meta { font-size: 12px; color: var(--ink-soft); font-family: monospace; }
+
+    /* Empty / loading */
+    .center-msg { text-align: center; padding: 60px 24px; color: var(--ink-soft); font-size: 14px; }
+
+    /* Nav tabs */
+    .nav-tabs { display: flex; border-bottom: 2px solid var(--border); background: white; }
+    .nav-tab {
+      flex: 1; padding: 10px; text-align: center; font-size: 13px; cursor: pointer;
+      font-family: monospace; background: none; border: none; border-right: 1px solid #ddd;
+    }
+    .nav-tab:last-child { border-right: none; }
+    .nav-tab.active { background: var(--ink); color: white; }
+  </style>
+</head>
+<body x-data="app()" x-init="init()">
+
+  <!-- App bar -->
+  <div class="app-bar">
+    <h1>📚 Learn Machine</h1>
+    <span class="progress-text" x-show="currentFormation" x-text="globalProgressText()"></span>
+  </div>
+  <div class="progress-bar-wrap" x-show="currentFormation">
+    <div class="progress-bar-fill" :style="`width:${globalProgress()}%`"></div>
+  </div>
+
+  <!-- Loading -->
+  <div class="center-msg" x-show="loading">Chargement…</div>
+
+  <!-- Error -->
+  <div class="center-msg" x-show="!loading && error" x-text="error"></div>
+
+  <!-- Formations list -->
+  <template x-if="!loading && !error && !currentFormation">
+    <div class="formations-list">
+      <template x-if="data && data.formations && data.formations.length === 0">
+        <div class="center-msg">Aucune formation.<br>Exporte d'abord depuis l'application.</div>
+      </template>
+      <template x-for="f in (data ? data.formations : [])" :key="f.id">
+        <div class="formation-card" @click="openFormation(f)">
+          <h2 x-text="f.title"></h2>
+          <div class="meta" x-text="f.theme + ' · ' + f.mode"></div>
+          <div class="prog" x-text="'Progression : ' + savedProgress(f) + '%'"></div>
+        </div>
+      </template>
+    </div>
+  </template>
+
+  <!-- Formation detail -->
+  <template x-if="!loading && !error && currentFormation">
+    <div>
+      <!-- Nav header -->
+      <div style="padding:10px 16px;border-bottom:1px solid #ddd;display:flex;align-items:center;gap:10px;">
+        <button class="back-btn" @click="closeFormation()">← Retour</button>
+        <span style="font-size:13px;font-weight:bold;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" x-text="currentFormation.title"></span>
+      </div>
+
+      <!-- Tab bar when playing video -->
+      <template x-if="currentVideo">
+        <div class="nav-tabs">
+          <button class="nav-tab" :class="tab==='steps'?'active':''" @click="tab='steps'">Plan</button>
+          <button class="nav-tab" :class="tab==='videos'?'active':''" @click="tab='videos'">Vidéos</button>
+          <button class="nav-tab" :class="tab==='player'?'active':''" @click="tab='player'">▶ Lecteur</button>
+        </div>
+      </template>
+
+      <!-- Steps tab -->
+      <div class="steps-view" x-show="tab==='steps'">
+        <template x-for="(step, si) in currentFormation.steps" :key="step.id">
+          <div class="step-block">
+            <button class="step-head" @click="toggleStep(si)">
+              <span x-text="step.title"></span>
+              <span class="step-arrow" :class="openStep===si?'open':''">▼</span>
+            </button>
+            <div class="sub-list" x-show="openStep===si">
+              <template x-for="sl in step.sub_lessons" :key="sl.id">
+                <div class="sub-item" :class="activeSubLesson && activeSubLesson.id===sl.id ? 'active' : ''" @click="openSubLesson(sl)">
+                  <div class="sub-check" :class="isCompleted(sl)?'done':''" @click.stop="toggleCompleted(sl)" x-text="isCompleted(sl)?'✓':''"></div>
+                  <span class="sub-title" x-text="sl.title"></span>
+                  <span class="sub-count" x-text="sl.videos.length + ' vid.'"></span>
+                </div>
+              </template>
+            </div>
+          </div>
+        </template>
+      </div>
+
+      <!-- Videos tab -->
+      <div class="videos-view" x-show="tab==='videos'">
+        <template x-if="!activeSubLesson">
+          <div class="center-msg">Sélectionne une sous-leçon dans le plan.</div>
+        </template>
+        <template x-if="activeSubLesson">
+          <div>
+            <h3 x-text="activeSubLesson.title"></h3>
+            <template x-for="v in activeSubLesson.videos" :key="v.id">
+              <div class="video-card" :class="isWatched(v)?'watched':''" @click="playVideo(v)">
+                <div class="video-thumb-wrap">
+                  <img :src="`https://img.youtube.com/vi/${v.youtube_id}/mqdefault.jpg`" :alt="v.title" loading="lazy" />
+                  <div class="video-thumb-overlay">
+                    <div class="play-icon">▶</div>
+                  </div>
+                </div>
+                <div class="video-info">
+                  <span class="watched-badge" x-show="isWatched(v)">✓ Vue</span>
+                  <div class="video-title" x-text="v.title"></div>
+                  <div class="video-meta" x-text="v.channel + (v.duration ? ' · ' + v.duration : '')"></div>
+                  <div class="video-note" x-show="v.relevance_note" x-text="v.relevance_note"></div>
+                </div>
+              </div>
+            </template>
+          </div>
+        </template>
+      </div>
+
+      <!-- Player tab -->
+      <div class="player-view" x-show="tab==='player'">
+        <template x-if="currentVideo">
+          <div>
+            <div class="player-wrap">
+              <iframe
+                :src="`https://www.youtube-nocookie.com/embed/${currentVideo.youtube_id}?start=${getPosition(currentVideo)}&autoplay=1`"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="player-title" x-text="currentVideo.title"></div>
+            <div class="player-meta" x-text="currentVideo.channel + (currentVideo.duration ? ' · ' + currentVideo.duration : '')"></div>
+            <div style="margin-top:12px;">
+              <button
+                style="font-family:monospace;font-size:12px;border:2px solid var(--border);padding:6px 14px;background:none;cursor:pointer;"
+                @click="toggleWatched(currentVideo)"
+                x-text="isWatched(currentVideo) ? '✓ Marquée vue' : 'Marquer comme vue'"
+              ></button>
+            </div>
+          </div>
+        </template>
+      </div>
+
+    </div>
+  </template>
+
+<script>
+function app() {
+  return {
+    loading: true,
+    error: null,
+    data: null,
+    currentFormation: null,
+    activeSubLesson: null,
+    currentVideo: null,
+    openStep: 0,
+    tab: 'steps',
+
+    // progress & watched stored in localStorage keyed by formation id
+    _store: {},
+
+    async init() {
+      try {
+        const res = await fetch('data.json');
+        if (!res.ok) throw new Error(`Impossible de charger data.json (${res.status})`);
+        this.data = await res.json();
+      } catch (e) {
+        this.error = e.message;
+      } finally {
+        this.loading = false;
+      }
+      this._store = JSON.parse(localStorage.getItem('lm_progress') || '{}');
+    },
+
+    _save() {
+      localStorage.setItem('lm_progress', JSON.stringify(this._store));
+    },
+
+    _key(formationId) {
+      return `f${formationId}`;
+    },
+
+    _fStore(formationId) {
+      const k = this._key(formationId);
+      if (!this._store[k]) this._store[k] = { completed: {}, watched: {}, positions: {} };
+      return this._store[k];
+    },
+
+    savedProgress(f) {
+      const s = this._fStore(f.id);
+      let total = 0, done = 0;
+      for (const step of f.steps)
+        for (const sl of step.sub_lessons) {
+          total++;
+          if (s.completed[sl.id]) done++;
+        }
+      return total ? Math.round(done / total * 100) : 0;
+    },
+
+    globalProgress() {
+      if (!this.currentFormation) return 0;
+      return this.savedProgress(this.currentFormation);
+    },
+
+    globalProgressText() {
+      return `Progression : ${this.globalProgress()}%`;
+    },
+
+    openFormation(f) {
+      this.currentFormation = f;
+      this.activeSubLesson = null;
+      this.currentVideo = null;
+      this.openStep = 0;
+      this.tab = 'steps';
+    },
+
+    closeFormation() {
+      this.currentFormation = null;
+      this.activeSubLesson = null;
+      this.currentVideo = null;
+    },
+
+    toggleStep(si) {
+      this.openStep = this.openStep === si ? null : si;
+    },
+
+    openSubLesson(sl) {
+      this.activeSubLesson = sl;
+      this.tab = 'videos';
+    },
+
+    isCompleted(sl) {
+      return !!this._fStore(this.currentFormation.id).completed[sl.id];
+    },
+
+    toggleCompleted(sl) {
+      const s = this._fStore(this.currentFormation.id);
+      s.completed[sl.id] = !s.completed[sl.id];
+      this._save();
+    },
+
+    isWatched(v) {
+      return !!this._fStore(this.currentFormation.id).watched[v.id];
+    },
+
+    toggleWatched(v) {
+      const s = this._fStore(this.currentFormation.id);
+      s.watched[v.id] = !s.watched[v.id];
+      // auto-complete sub-lesson if all videos watched
+      if (this.activeSubLesson) {
+        const allWatched = this.activeSubLesson.videos.every(vid => s.watched[vid.id]);
+        if (allWatched) s.completed[this.activeSubLesson.id] = true;
+      }
+      this._save();
+    },
+
+    getPosition(v) {
+      return this._fStore(this.currentFormation.id).positions[v.id] || 0;
+    },
+
+    playVideo(v) {
+      this.currentVideo = v;
+      this.tab = 'player';
+    },
+  };
+}
+</script>
+</body>
+</html>
