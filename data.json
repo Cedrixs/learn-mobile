@@ -1,4 +1,2001 @@
 {
-  "exported_at": "",
-  "formations": []
+  "exported_at": "2026-05-03T18:24:24.761212Z",
+  "formations": [
+    {
+      "id": 4,
+      "theme": "Faire du wingfoil",
+      "title": "Faire du wingfoil",
+      "mode": "mistral",
+      "created_at": "2026-05-03T16:11:41.111554",
+      "updated_at": "2026-05-03T16:11:41.111554",
+      "steps": [
+        {
+          "id": 10,
+          "formation_id": 4,
+          "order": 1,
+          "title": "Fondamentaux",
+          "sub_lessons": [
+            {
+              "id": 22,
+              "step_id": 10,
+              "order": 1,
+              "title": "Rappel des bases du wingfoil et sécurité",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 106,
+                  "sub_lesson_id": 22,
+                  "youtube_id": "-HTkf1UXjiE",
+                  "title": "WINGFOIL - REGLES DE SECURITE & BONNES PRATIQUES (AVEC LA FFV)",
+                  "channel": "Hadou BRUNNER",
+                  "duration": "2:41",
+                  "relevance_note": "The title and description indicate a focus on safety rules and best practices for wingfoil, aligning well with the module's objectives. However, the lack of concrete examples or detailed structure in the description limits the pedagogical score. The format appears mixed (likely demo + concept) but is not explicitly confirmed.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 107,
+                  "sub_lesson_id": 22,
+                  "youtube_id": "SeI11wNZn9A",
+                  "title": "10 CONSEILS POUR DÉBUTER EN WINGFOIL !  COMMENT APPRENDRE ET COMMENCER LE WINGFOIL ?",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "7:53",
+                  "relevance_note": "The video title and description suggest a focus on beginner tips rather than intermediate fundamentals or safety rules. The lack of structure, concrete examples, and alignment with the module's intermediate-level objectives results in lower scores for pedagogical value and goal fit.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 108,
+                  "sub_lesson_id": 22,
+                  "youtube_id": "lMv0-nxauvY",
+                  "title": "Wingfoil: how to go upwind at the beginning in this wing foil sport!",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "6:30",
+                  "relevance_note": "The title and description suggest a practical demonstration of a specific wingfoil technique (going upwind), which aligns partially with the module's safety and fundamentals focus. However, no explicit structure, safety rules, or component identification is mentioned, limiting pedagogical depth and goal alignment.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 109,
+                  "sub_lesson_id": 22,
+                  "youtube_id": "4zKilD-AiPk",
+                  "title": "WINGFOIL NAVIGUER AU HARNAIS - HOW TO",
+                  "channel": "Hadou BRUNNER",
+                  "duration": "14:38",
+                  "relevance_note": "The video focuses narrowly on harness setup for a specific wing model, lacking broader fundamentals or safety rules. It does not cover spot selection, general safety gestures, or wingfoil basics, which are core to the module objectives.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 110,
+                  "sub_lesson_id": 22,
+                  "youtube_id": "KPUPTWiTFiQ",
+                  "title": "Parawing ou Wing Foil 🏆 ? Avantage et inconvénients, on te dit tout 👍 !",
+                  "channel": "Sup Passion // Foil Magazine and SROKA company : Foil, wing foil & SUP",
+                  "duration": "27:15",
+                  "relevance_note": "The video title and description focus on comparing parawing and wing foil, which is unrelated to the module's objectives of reviewing wingfoil fundamentals and safety rules. No structure, concrete examples, or pedagogical elements aligned with the target skills are detectable.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "step_id": 10,
+              "order": 2,
+              "title": "Maîtriser les techniques de décollage et atterrissage de l'aile",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 111,
+                  "sub_lesson_id": 23,
+                  "youtube_id": "3jhUFNcsk8c",
+                  "title": "Easiest wing foil tack technique I've  found for both toe to heel side and heel to toe side.",
+                  "channel": "Wing Coach David",
+                  "duration": "14:57",
+                  "relevance_note": "The title and description suggest a practical demonstration of wing foil techniques, which aligns with the intermediate skill level. However, no explicit structure, concrete examples, or detailed explanations are indicated, limiting pedagogical depth and goal alignment.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 112,
+                  "sub_lesson_id": 23,
+                  "youtube_id": "KqXE-91RdNY",
+                  "title": "[Wingfoil Tutorials] Mastering wing foil flight: instructions!",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "12:40",
+                  "relevance_note": "The title and description suggest a focus on advanced wingfoil techniques (e.g., trimming foil, emergency stops), which may exceed intermediate learners' needs. Concrete examples and step-by-step structure are implied but not confirmed without a transcript.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 113,
+                  "sub_lesson_id": 23,
+                  "youtube_id": "lzZqIzASaEE",
+                  "title": "WINGFOIL TUTO EP02 :  COMMENT DECOLLER ? MES CONSEILS POUR VOLER EN WINGFOIL",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "6:11",
+                  "relevance_note": "The title and description suggest a practical demo focused on takeoff techniques, which aligns with the module's goal. However, no explicit structure, concrete examples, or detailed explanations are indicated, limiting pedagogical depth and clarity.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 114,
+                  "sub_lesson_id": 23,
+                  "youtube_id": "vwk53EIM5AM",
+                  "title": "5 exercices de tir pour les ailiers | Marquer plus de buts sur l'aile",
+                  "channel": "7mlc",
+                  "duration": "8:40",
+                  "relevance_note": "The video title and description are unrelated to the training module on wingfoil techniques. No clear pedagogical structure, examples, or alignment with the module's objectives are evident.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 115,
+                  "sub_lesson_id": 23,
+                  "youtube_id": "8q7zjCjpawQ",
+                  "title": "Comment pomper en wing | WING FOIL",
+                  "channel": "Cabrinha France",
+                  "duration": "7:46",
+                  "relevance_note": "The title and description focus on 'pomping' (a wing technique) rather than the core skills of takeoff/landing in wingfoil. No explicit structure, examples, or alignment with the module's objectives (takeoff/landing control) are evident from the title/description alone.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 24,
+              "step_id": 10,
+              "order": 3,
+              "title": "Gérer la puissance de l'aile et les transitions en navigation",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 116,
+                  "sub_lesson_id": 24,
+                  "youtube_id": "mqPGVzZqyBE",
+                  "title": "Advanced tacking tips and techniques for wing foiling",
+                  "channel": "Wing Coach David",
+                  "duration": "16:44",
+                  "relevance_note": "The title and description suggest a focus on advanced tacking techniques, which aligns with intermediate wingfoil skills. However, the lack of concrete examples, structure, or detailed description limits pedagogical and goal-fit scores.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 117,
+                  "sub_lesson_id": 24,
+                  "youtube_id": "nGXEOyLiIUg",
+                  "title": "Wingfoil Tutorial: Tacking in 3 Steps // How to tack?",
+                  "channel": "JujuCams Life",
+                  "duration": "4:06",
+                  "relevance_note": "The video title and description suggest a structured approach to tacking in wingfoil, aligning with intermediate skill development. However, the lack of concrete examples or detailed steps in the description limits pedagogical depth and clarity.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 118,
+                  "sub_lesson_id": 24,
+                  "youtube_id": "bDwl4a4AqBE",
+                  "title": "[Tuto Wing foil] Les secrets du surf ou freefly en wingfoil ou wingsurf !",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "9:27",
+                  "relevance_note": "The title and description suggest a focus on advanced techniques (surf/freefly) rather than foundational wingfoil skills. No explicit mention of transitions, power adjustment, or intermediate-level drills, though the target learner is intermediate.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 119,
+                  "sub_lesson_id": 24,
+                  "youtube_id": "EqdqNT6-j1w",
+                  "title": "Maîtriser son aile en Wingfoil avant d'aller à l'eau ! (Tuto Wing F-One)",
+                  "channel": "Glide Progress",
+                  "duration": "3:09",
+                  "relevance_note": "The title and description suggest a practical focus on wing control and preparation for wingfoil, but lack explicit structure, concrete examples, or alignment with the module's intermediate-level skills (e.g., transitions, power adjustments). The lexical level is appropriate, but the content signals are too vague to confirm pedagogical effectiveness.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 120,
+                  "sub_lesson_id": 24,
+                  "youtube_id": "HahP3T63cjQ",
+                  "title": "LES RÈGLES DE NAVIGATION EN KITESURF",
+                  "channel": "Booster-kite",
+                  "duration": "1:56",
+                  "relevance_note": "The video title and description focus on kitesurf navigation rules, which are unrelated to the wingfoil training module's objectives (wing power adjustment, transitions, and trajectory stability). No relevant content or structure for intermediate wingfoil learners is detected.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "formation_id": 4,
+          "order": 2,
+          "title": "Développement",
+          "sub_lessons": [
+            {
+              "id": 25,
+              "step_id": 11,
+              "order": 1,
+              "title": "Perfectionner les virages serrés et le carving",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 121,
+                  "sub_lesson_id": 25,
+                  "youtube_id": "yVD0AXLCTPY",
+                  "title": "Level Up Your Wing Foiling | Nail the Perfect Stance Every Time",
+                  "channel": "MACkiteboarding",
+                  "duration": "22:15",
+                  "relevance_note": "The video title and description suggest a focus on stance and technique for wing foiling, which aligns with intermediate skill development. However, no concrete examples or structured breakdown of virages serrés or carving are mentioned, limiting pedagogical depth and goal fit.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 122,
+                  "sub_lesson_id": 25,
+                  "youtube_id": "7cP4bZIco64",
+                  "title": "3 CONSEILS POUR REUSSIR TES JIBES",
+                  "channel": "Hadou BRUNNER",
+                  "duration": "7:30",
+                  "relevance_note": "The title and description suggest a focus on jibes (wingfoil maneuver), which aligns with intermediate skills like tight turns and carving. However, no concrete examples, structure, or transcript were provided to assess pedagogical depth or clarity.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 123,
+                  "sub_lesson_id": 25,
+                  "youtube_id": "bDwl4a4AqBE",
+                  "title": "[Tuto Wing foil] Les secrets du surf ou freefly en wingfoil ou wingsurf !",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "9:27",
+                  "relevance_note": "The title and description suggest a focus on advanced techniques (wingfoil, carving) but lack concrete examples or step-by-step breakdowns. The mixed format (materiel, sécurité, technique) aligns partially with the module's goals but does not fully address the intermediate learner's needs for detailed execution.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 124,
+                  "sub_lesson_id": 25,
+                  "youtube_id": "sYZAldn3sCo",
+                  "title": "S-turn exercise, with bonus chapter on jibes!  Balancing wing and foil part 2.",
+                  "channel": "Wing Coach David",
+                  "duration": "7:08",
+                  "relevance_note": "The title and description suggest a practical exercise (S-turn) and a bonus (jibes), which aligns with the module's focus on tight turns and carving. However, the lack of explicit structure, concrete examples, or detailed guidance in the description limits pedagogical and clarity scores.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 125,
+                  "sub_lesson_id": 25,
+                  "youtube_id": "uSqqFeDKHrk",
+                  "title": "TUTO WINGFOIL: LE JIBE EN 3 ÉTAPES  // How to Jibe?!",
+                  "channel": "JujuCams Life",
+                  "duration": "2:05",
+                  "relevance_note": "The video title and description suggest a structured approach to learning the jibe (a key wingfoil maneuver), aligning with intermediate skill development. However, the lack of concrete examples or detailed explanations in the description limits pedagogical depth and clarity.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 26,
+              "step_id": 11,
+              "order": 2,
+              "title": "Naviguer dans des conditions venteuses et turbulentes",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 126,
+                  "sub_lesson_id": 26,
+                  "youtube_id": "USc2Djxf7aE",
+                  "title": "Comment faire du wing foil par vent fort",
+                  "channel": "Damien LeRoy",
+                  "duration": "23:14",
+                  "relevance_note": "The title and description suggest a practical demo focused on wingfoil in strong winds, aligning with the module's goal of adapting to windy conditions. However, without a transcript or detailed content, the pedagogical structure, concrete examples, and clarity cannot be fully assessed.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 127,
+                  "sub_lesson_id": 26,
+                  "youtube_id": "KqXE-91RdNY",
+                  "title": "[Wingfoil Tutorials] Mastering wing foil flight: instructions!",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "12:40",
+                  "relevance_note": "The title and description align well with the module's goals, covering key skills like stabilizing flight and managing wind conditions. However, without a transcript, the depth of concrete examples and structure cannot be fully verified.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 128,
+                  "sub_lesson_id": 26,
+                  "youtube_id": "b6SfHC6F8Mo",
+                  "title": "Épisode n° 123 - À la poursuite de la pompe : Edan Fiander (audio seulement)",
+                  "channel": "Foil Life Podcast by SFT",
+                  "duration": "26:46",
+                  "relevance_note": "The title and description suggest a focus on advanced wingfoil techniques (pump foiling) rather than foundational skills for intermediate learners. No clear structure, concrete examples, or alignment with the module's learning goals (e.g., managing strong winds, turbulence, or wing size selection) is evident.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 129,
+                  "sub_lesson_id": 26,
+                  "youtube_id": "vYhj8S0C3Ok",
+                  "title": "Wing Foil: Stance Tips and Mistakes",
+                  "channel": "Wingfoil, Kitefoil & Kitesurf College",
+                  "duration": "7:17",
+                  "relevance_note": "The video title and description suggest a focus on stance techniques, which aligns with intermediate wingfoil skills. However, without a transcript, the depth of pedagogical content and explicit alignment with windy/turbulent conditions cannot be fully verified.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 130,
+                  "sub_lesson_id": 26,
+                  "youtube_id": "UmL52yeL9wA",
+                  "title": "Naviguer CONTRE le vent : comment est-ce possible ?",
+                  "channel": "Vlanx",
+                  "duration": "1:21",
+                  "relevance_note": "Le titre signale un concept technique (navigation contre le vent), mais la description est vide de signaux pédagogiques. Aucun exemple ou structure détectée.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 27,
+              "step_id": 11,
+              "order": 3,
+              "title": "Sauter avec son wingfoil : initiation aux figures aériennes",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 131,
+                  "sub_lesson_id": 27,
+                  "youtube_id": "lzZqIzASaEE",
+                  "title": "WINGFOIL TUTO EP02 :  COMMENT DECOLLER ? MES CONSEILS POUR VOLER EN WINGFOIL",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "6:11",
+                  "relevance_note": "The title and description suggest a practical demo focused on takeoff, which aligns with the module's goal of learning to fly in wingfoil. However, no structure, concrete examples, or lexical depth beyond intermediate level are indicated, and the pedagogical score is conservative due to lack of transcript evidence.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 132,
+                  "sub_lesson_id": 27,
+                  "youtube_id": "C4qGWPbhDow",
+                  "title": "WINGFOIL TUTO EP 7 COMMENT SAUTER ?",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "7:06",
+                  "relevance_note": "The title and description suggest a practical demo format focused on jumping techniques, which aligns with intermediate learners. However, no concrete examples, structure, or detailed explanations are indicated, limiting pedagogical depth and clarity.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 133,
+                  "sub_lesson_id": 27,
+                  "youtube_id": "BI32_luY1YY",
+                  "title": "ITW wingfoil : the secrets behind the new FONE STRIKE V3 with  Raphaël Salles",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "28:26",
+                  "relevance_note": "The title and description focus on an interview about a specific wingfoil product (FONE STRIKE V3) rather than on teaching jumps or aerial figures. No clear pedagogical structure, examples, or alignment with the module's learning goals are evident.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 134,
+                  "sub_lesson_id": 27,
+                  "youtube_id": "1I04oK-twNs",
+                  "title": "Comment sauter plus haut avec Ruben Lenten | Deuxième partie",
+                  "channel": "Ozone Kites",
+                  "duration": "6:19",
+                  "relevance_note": "The video title and description suggest a focus on advanced techniques (e.g., 'megaloop') which may exceed intermediate learners' current needs. However, the mention of 'astuces de contrôle du kite' implies practical guidance, aligning partially with the module's goals.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 135,
+                  "sub_lesson_id": 27,
+                  "youtube_id": "yawFHArL4fI",
+                  "title": "WINGFOIL TUTO - je t'apprends à surfer en wingfoil !",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "19:40",
+                  "relevance_note": "The video title and description suggest a general wingfoil tutorial rather than a focused initiation to aerial figures. While the target learner is intermediate, the content appears too broad for the specific module objective. No structure, concrete examples, or pedagogical elements are indicated in the title/description.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "formation_id": 4,
+          "order": 3,
+          "title": "Maîtrise avancée",
+          "sub_lessons": [
+            {
+              "id": 28,
+              "step_id": 12,
+              "order": 1,
+              "title": "Techniques avancées : foil pumping et navigation en downwind",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 136,
+                  "sub_lesson_id": 28,
+                  "youtube_id": "MVqszmGINNo",
+                  "title": "Les secrets du downwind foil pour optimiser ton vol en supfoil, wingfoil freefly, parawing, etc.",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "11:41",
+                  "relevance_note": "The title and description suggest practical advice on downwind foil techniques, aligning well with intermediate learners. However, no explicit structure, concrete examples, or detailed breakdown of concepts are visible in the provided metadata, limiting pedagogical score.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 137,
+                  "sub_lesson_id": 28,
+                  "youtube_id": "9EvpZDOmlps",
+                  "title": "WINGFOIL TUTOS EP05 comment bien pomper pour décoller plus tôt  ?",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "6:53",
+                  "relevance_note": "The video title and description suggest a practical demo focused on foil pumping to improve early lift, which aligns with the module's goal of generating speed. However, no structure, concrete examples, or lexical depth beyond intermediate level are evident from the title/description alone.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 138,
+                  "sub_lesson_id": 28,
+                  "youtube_id": "VqBY9-DT4fg",
+                  "title": "Wing Foil Downwinding | Tutorial | Fiji Islands",
+                  "channel": "Downwind_Drifter",
+                  "duration": "11:55",
+                  "relevance_note": "The video title and description suggest a practical demo focused on wingfoil downwinding, which aligns with intermediate skills like foil pumping and downwind navigation. However, the lack of explicit structure, concrete examples, or clear pedagogical framing limits its pedagogical score. The goal fit is moderate as it covers relevant techniques but may lack depth for mastery.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 139,
+                  "sub_lesson_id": 28,
+                  "youtube_id": "bb1Xt7hJPz0",
+                  "title": "[WING FOIL TUTOS] Safety and equipment: how to prepare a downwind in wing foil?",
+                  "channel": "AFS FOILS ",
+                  "duration": "2:22",
+                  "relevance_note": "The title and description focus on safety and equipment preparation rather than technical skills like foil pumping or downwind navigation. No explicit structure, examples, or alignment with the module's learning goals are evident.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 140,
+                  "sub_lesson_id": 28,
+                  "youtube_id": "PeBJQtI2fyY",
+                  "title": "[WING FOIL TUTORIALS] - What are the conditions to sail a wing foil?",
+                  "channel": "AFS FOILS ",
+                  "duration": "5:53",
+                  "relevance_note": "The video title and description suggest a beginner-oriented introduction to wing foil conditions, lacking depth on intermediate techniques like foil pumping or downwind navigation. No structure, examples, or alignment with the module's advanced objectives are evident.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "step_id": 12,
+              "order": 2,
+              "title": "Projet : Parcours technique et enchaînement de figures",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 141,
+                  "sub_lesson_id": 29,
+                  "youtube_id": "poMgeeUmtHI",
+                  "title": "How to Wing Foil #1 All in the Prep",
+                  "channel": "Tonic Mag",
+                  "duration": "14:06",
+                  "relevance_note": "The video focuses on preparation steps (positioning board and wing) rather than practical execution of a full technical parcours or figure sequences, which are central to the module objective. While the title suggests a tutorial, the description lacks explicit links to intermediate-level skills like fluid transitions or performance evaluation.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 142,
+                  "sub_lesson_id": 29,
+                  "youtube_id": "ury5Fy_ugdo",
+                  "title": "Jibes are Hard Until They are Easy - Tips and Drills for Beginners",
+                  "channel": "clayisland",
+                  "duration": "13:56",
+                  "relevance_note": "The video focuses on a specific technique (jibes) with drills, which aligns partially with the module's goal of mastering wingfoil. However, it lacks broader coverage of a full technical parcours or figure sequences, limiting its fit for the intermediate-level project objective.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 143,
+                  "sub_lesson_id": 29,
+                  "youtube_id": "3wGPT36IUjw",
+                  "title": "6 figures de wingfoil faciles à maîtriser rapidement !",
+                  "channel": "ProKite Alby Rondina",
+                  "duration": "3:33",
+                  "relevance_note": "The video title and description suggest practical demonstration of figures, which aligns with intermediate skill development. However, no explicit structure, progression, or evaluation framework is mentioned, limiting pedagogical depth. Concrete examples (6 figures) are provided, but without context or adaptation to learner needs.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 144,
+                  "sub_lesson_id": 29,
+                  "youtube_id": "sem8R9PI9oA",
+                  "title": "Quelle force de vent est nécessaire pour le wing foil ? Guide du débutant",
+                  "channel": "MACkiteboarding",
+                  "duration": "12:47",
+                  "relevance_note": "The video focuses on wind force requirements for wingfoil, which is a foundational concept but not directly aligned with the intermediate-level module's goal of designing and executing technical maneuvers. No structure, concrete examples, or advanced content are indicated by the title/description.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 145,
+                  "sub_lesson_id": 29,
+                  "youtube_id": "X1-Vjxg96Ww",
+                  "title": "[Tuto Jump Wing Foil] How to jump on your wingfoil !",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "5:18",
+                  "relevance_note": "The video title and description focus on a specific skill (jumping) rather than a full technical parcours, limiting alignment with the module's broader objectives. While the content is relevant to intermediate learners, it lacks explicit structure, examples, or evaluation guidance.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": 3,
+      "theme": "Progresser en wingfoil",
+      "title": "Progresser en wingfoil",
+      "mode": "deep",
+      "created_at": "2026-04-30T10:44:47.365918",
+      "updated_at": "2026-04-30T10:44:47.365918",
+      "steps": [
+        {
+          "id": 7,
+          "formation_id": 3,
+          "order": 1,
+          "title": "Fondamentaux",
+          "sub_lessons": [
+            {
+              "id": 14,
+              "step_id": 7,
+              "order": 1,
+              "title": "Comprendre les bases du wingfoil",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 66,
+                  "sub_lesson_id": 14,
+                  "youtube_id": "u6FAkF5vamA",
+                  "title": "Conseils matos et sécurité: comment gérer les dangers en wing foil, downwindfoil et parawing?",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "21:59",
+                  "relevance_note": "The title and description suggest a focus on safety and risk management, but the lack of a transcript limits the ability to assess the depth of content coverage.",
+                  "watched": true,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 67,
+                  "sub_lesson_id": 14,
+                  "youtube_id": "CMOP45tsnO0",
+                  "title": "Débuter en wing foil | la première session (en français)",
+                  "channel": "Gwen Le Tutour and AFS FOILS",
+                  "duration": "21:54",
+                  "relevance_note": "The title suggests a beginner-friendly approach, but the description lacks specific learning objectives and concrete examples. The video's format is suitable for an intermediate-level learner.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 68,
+                  "sub_lesson_id": 14,
+                  "youtube_id": "-HTkf1UXjiE",
+                  "title": "WINGFOIL - REGLES DE SECURITE & BONNES PRATIQUES (AVEC LA FFV)",
+                  "channel": "Hadou BRUNNER",
+                  "duration": "2:41",
+                  "relevance_note": "The title and description suggest a focus on safety rules and good practices, but the lack of transcript limits the ability to fully assess the content's alignment with the learning goal.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 69,
+                  "sub_lesson_id": 14,
+                  "youtube_id": "UigJ3InqsXE",
+                  "title": "TOUT SAVOIR SUR LE WING FOIL ET MATÉRIEL (Niveau débutant)",
+                  "channel": "Au Vieux Campeur",
+                  "duration": "4:10",
+                  "relevance_note": "The title suggests a beginner's focus, but the description implies an intermediate level target learner. The format is mixed, with a mix of equipment and safety information.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 70,
+                  "sub_lesson_id": 14,
+                  "youtube_id": "KozGTOELf98",
+                  "title": "Tuto Wingfoil : Réaliser ses premiers bords",
+                  "channel": "Fédération Française de Voile - FFVoile",
+                  "duration": "2:40",
+                  "relevance_note": "The title suggests a tutorial on wingfoil basics, but the description lacks specific details about the content. The video's duration and channel affiliation (FFVoile) suggest a high-quality resource.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "step_id": 7,
+              "order": 2,
+              "title": "Apprendre à lancer et contrôler le wingfoil",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 71,
+                  "sub_lesson_id": 15,
+                  "youtube_id": "_y34ZFaxAr0",
+                  "title": "Comment faire du wingfoil ! Partie 1 : CONTRÔLE DE L'AILE",
+                  "channel": "KG Coaching by Reckless Riders Wingfoil & Windsurf",
+                  "duration": "20:43",
+                  "relevance_note": "The title and description suggest a focus on control of the wingfoil, which aligns with the intermediate level learner's goals. However, without a transcript, it is difficult to assess the video's content and determine its alignment with the learning objectives.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 72,
+                  "sub_lesson_id": 15,
+                  "youtube_id": "CMOP45tsnO0",
+                  "title": "Débuter en wing foil | la première session (en français)",
+                  "channel": "Gwen Le Tutour and AFS FOILS",
+                  "duration": "21:54",
+                  "relevance_note": "The title and description suggest a beginner-friendly approach, but the lack of transcript limits the evaluation of pedagogical quality.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 73,
+                  "sub_lesson_id": 15,
+                  "youtube_id": "htPTlWT6chk",
+                  "title": "You're on Foil...Now What?! How to Fly Longer--and in CONTROL! | AWKWA Wingfoiling 101",
+                  "channel": "AWKWA",
+                  "duration": "15:17",
+                  "relevance_note": "The title suggests a focus on control and mastery, while the description implies a practical approach to improving wingfoil skills. However, without a transcript, it's difficult to assess the content's alignment with the learning goal.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 74,
+                  "sub_lesson_id": 15,
+                  "youtube_id": "KqXE-91RdNY",
+                  "title": "[Wingfoil Tutorials] Mastering wing foil flight: instructions!",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "12:40",
+                  "relevance_note": "The title and description suggest a tutorial-style video focused on mastering wingfoil flight, but lack specific details about the content's alignment with the learner's goals.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 75,
+                  "sub_lesson_id": 15,
+                  "youtube_id": "GIUfoEH_sG4",
+                  "title": "How to Wing Foil #2 Getting Up on the Foil",
+                  "channel": "Tonic Mag",
+                  "duration": "7:32",
+                  "relevance_note": "The title and description suggest a tutorial on getting up on the wingfoil, which aligns with the module objective. However, without a transcript, it's difficult to assess the content's accuracy and depth.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "step_id": 7,
+              "order": 3,
+              "title": "Apprendre à naviguer et à manœuvrer le wingfoil",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 76,
+                  "sub_lesson_id": 16,
+                  "youtube_id": "_y34ZFaxAr0",
+                  "title": "Comment faire du wingfoil ! Partie 1 : CONTRÔLE DE L'AILE",
+                  "channel": "KG Coaching by Reckless Riders Wingfoil & Windsurf",
+                  "duration": "20:43",
+                  "relevance_note": "The title suggests a focus on control, and the description implies a tutorial-like format, but lacks specific details about navigation techniques. The video's duration is also relatively short, which may limit its instructional value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 77,
+                  "sub_lesson_id": 16,
+                  "youtube_id": "CMOP45tsnO0",
+                  "title": "Débuter en wing foil | la première session (en français)",
+                  "channel": "Gwen Le Tutour and AFS FOILS",
+                  "duration": "21:54",
+                  "relevance_note": "The title and description suggest a beginner-friendly introduction to wingfoil, but the lack of transcript limits the evaluation of pedagogical quality.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 78,
+                  "sub_lesson_id": 16,
+                  "youtube_id": "X_9Qr0p3scI",
+                  "title": "Wingfoil tutorial specializing in maneuvers",
+                  "channel": "Nature Kite",
+                  "duration": "10:45",
+                  "relevance_note": "The title suggests a focus on maneuvers, and the description implies a tutorial-like format, but lacks specific details about navigation techniques.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 79,
+                  "sub_lesson_id": 16,
+                  "youtube_id": "3x0hGyAfF4g",
+                  "title": "How To Maximize Your Speed Potential On A Wing",
+                  "channel": "Robby Naish",
+                  "duration": "10:08",
+                  "relevance_note": "The title and description suggest a focus on speed optimization, but lack specific details on navigation techniques, which are the primary objective of the training module.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 80,
+                  "sub_lesson_id": 16,
+                  "youtube_id": "RnVJjnpF06M",
+                  "title": "FOILWING TUTO #10 Remonter au vent / Wingfoil how to go upwind",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "1:29",
+                  "relevance_note": "The title and description suggest a tutorial on wingfoil navigation, but lack specific details on the techniques covered. The video's focus on going upwind implies it may not fully address all skills required for intermediate learners.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "formation_id": 3,
+          "order": 2,
+          "title": "Développement",
+          "sub_lessons": [
+            {
+              "id": 17,
+              "step_id": 8,
+              "order": 1,
+              "title": "Apprendre à faire des figures et des manœuvres avancées",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 81,
+                  "sub_lesson_id": 17,
+                  "youtube_id": "X_9Qr0p3scI",
+                  "title": "Wingfoil tutorial specializing in maneuvers",
+                  "channel": "Nature Kite",
+                  "duration": "10:45",
+                  "relevance_note": "The title and description suggest a tutorial on advanced wingfoil maneuvers, but lack specific details on the learning objectives and outcomes.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 82,
+                  "sub_lesson_id": 17,
+                  "youtube_id": "z_M37UJ6W3o",
+                  "title": "Séance avec Balz Muller @radiculo | Feuille d'aile",
+                  "channel": "Damien LeRoy and Little Blue Bus",
+                  "duration": "13:03",
+                  "relevance_note": "The title and description suggest a demonstration of advanced wingfoil techniques, but lack specific details on the skills to be developed. The video's focus on Balz Muller's expertise and the rider's experience may not directly align with the intermediate learner's needs.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 83,
+                  "sub_lesson_id": 17,
+                  "youtube_id": "78vozcX9c3Q",
+                  "title": "Comment réaliser un frontside 360 ​​| Flaka | Figure freestyle en wing foil",
+                  "channel": "Damien LeRoy",
+                  "duration": "11:14",
+                  "relevance_note": "The title suggests a tutorial on advanced wingfoil figures, and the description implies a focus on precision and control. However, without a transcript, it's difficult to assess the instructor's clarity and effectiveness in conveying complex information.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 84,
+                  "sub_lesson_id": 17,
+                  "youtube_id": "3wGPT36IUjw",
+                  "title": "6 figures de wingfoil faciles à maîtriser rapidement !",
+                  "channel": "ProKite Alby Rondina",
+                  "duration": "3:33",
+                  "relevance_note": "The title suggests a focus on easy-to-learn figures, and the description implies a progression-oriented approach suitable for intermediate learners.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 85,
+                  "sub_lesson_id": 17,
+                  "youtube_id": "kKfNIP7SkbY",
+                  "title": "Foiling 360 Breakdown | How to Nail This Iconic Wing Foil Trick",
+                  "channel": "Wing-Tips",
+                  "duration": "13:00",
+                  "relevance_note": "The title and description suggest a tutorial on advanced wing foil techniques, but lack specific details on how to apply these skills in practice.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "step_id": 8,
+              "order": 2,
+              "title": "Apprendre à faire des manœuvres de freinage et de décélération",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 86,
+                  "sub_lesson_id": 18,
+                  "youtube_id": "iku3M__zJzE",
+                  "title": "Savoir doser l'embrayage ,le frein et l’accélérateur a différentes allures",
+                  "channel": "Move Drive Vidéo Permis",
+                  "duration": "24:25",
+                  "relevance_note": "The title suggests a focus on technique, but the description appears to be unrelated to wingfoil training. The video's content is unclear without a transcript.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 87,
+                  "sub_lesson_id": 18,
+                  "youtube_id": "B1WWw3HfwN0",
+                  "title": "COMMENT FAIRE PARFAITEMENT SES CONTRÔLES EN VOITURES",
+                  "channel": "FCD ONLINE",
+                  "duration": "26:38",
+                  "relevance_note": "The title and description suggest a focus on controlling speed, but the lack of specific wingfoil-related content limits its relevance to the target learner's skill development.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 88,
+                  "sub_lesson_id": 18,
+                  "youtube_id": "Wt0W13zSKYQ",
+                  "title": "Leçon 3: Freinages spécifiques",
+                  "channel": "École de pilotage virtuelle (EPV)",
+                  "duration": "7:17",
+                  "relevance_note": "The title and description suggest a focus on specific freinage techniques, but lack detail about how these relate to progressing in wingfoil. The video's brevity may also limit the depth of instruction.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 89,
+                  "sub_lesson_id": 18,
+                  "youtube_id": "KPUPTWiTFiQ",
+                  "title": "Parawing ou Wing Foil 🏆 ? Avantage et inconvénients, on te dit tout 👍 !",
+                  "channel": "Sup Passion // Foil Magazine and SROKA company : Foil, wing foil & SUP",
+                  "duration": "27:15",
+                  "relevance_note": "The title suggests a comparison between two wingfoil-related topics, but the description lacks specificity on how these topics relate to freinage and décélération techniques. The video's focus on general wingfoil benefits rather than technical skills for intermediate learners raises concerns about its relevance to the module objective.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 90,
+                  "sub_lesson_id": 18,
+                  "youtube_id": "u-E1Kvw36hs",
+                  "title": "STOP ACCELERATING WHEN YOU TURN!",
+                  "channel": "FCD ONLINE",
+                  "duration": "16:25",
+                  "relevance_note": "The title suggests a focus on freinage and deceleration, but the description lacks specific details about wingfoil techniques. The video's format as a demo is suitable for intermediate learners.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "step_id": 8,
+              "order": 3,
+              "title": "Apprendre à faire des manœuvres de changement de direction rapide",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 91,
+                  "sub_lesson_id": 19,
+                  "youtube_id": "3ylKTl9HmrQ",
+                  "title": "SUCCESSFULLY PASSING THIS EXAM MANEUVER",
+                  "channel": "samad permis",
+                  "duration": "18:53",
+                  "relevance_note": "The title and description suggest a demonstration of wingfoil maneuvering skills, but lack specific details about the content. The video's focus on passing an exam maneuver implies a more advanced level than intermediate.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 92,
+                  "sub_lesson_id": 19,
+                  "youtube_id": "bS_cFjazfTE",
+                  "title": "WING FOIL: How to switch stance (foot swap, heelside / toeside switch)",
+                  "channel": "Wingfoil, Kitefoil & Kitesurf College",
+                  "duration": "9:56",
+                  "relevance_note": "The title and description suggest a focus on teaching wingfoil techniques, but the lack of a transcript limits the ability to assess pedagogical quality.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 93,
+                  "sub_lesson_id": 19,
+                  "youtube_id": "m1H2vHAIQgk",
+                  "title": "Maitrisez toutes les LIMITATIONS de Vitesse du Code",
+                  "channel": "Code en poche - Code de la route",
+                  "duration": "13:35",
+                  "relevance_note": "The title suggests a focus on speed limitations, but the description lacks specificity about wingfoil techniques. The format is mixed, indicating a potential for both instructional and demonstration content.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 94,
+                  "sub_lesson_id": 19,
+                  "youtube_id": "KozGTOELf98",
+                  "title": "Tuto Wingfoil : Réaliser ses premiers bords",
+                  "channel": "Fédération Française de Voile - FFVoile",
+                  "duration": "2:40",
+                  "relevance_note": "The title and description suggest a tutorial on wingfoil maneuvers, but lack specific details on the skills to be developed and concrete examples of techniques. The video's duration is also relatively short.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 95,
+                  "sub_lesson_id": 19,
+                  "youtube_id": "Yx8fazaN-YA",
+                  "title": "How to SWITCH STANCE in wingfoiling! An easy guide to switching your feet.",
+                  "channel": "KG Coaching by Reckless Riders Wingfoil & Windsurf",
+                  "duration": "8:02",
+                  "relevance_note": "The title and description suggest a tutorial on wingfoil maneuvering, but lack specific details on the techniques to be learned.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "formation_id": 3,
+          "order": 3,
+          "title": "Maîtrise avancée",
+          "sub_lessons": [
+            {
+              "id": 20,
+              "step_id": 9,
+              "order": 1,
+              "title": "Apprendre à faire des figures et des manœuvres avancées en conditions difficiles",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 96,
+                  "sub_lesson_id": 20,
+                  "youtube_id": "1NnV655Wads",
+                  "title": "Wing Foil World Tour & Surf Foil World Tour Show Épisode #12 - Récapitulatif de Leucate 2025",
+                  "channel": "Foil Life Podcast by SFT",
+                  "duration": "36:40",
+                  "relevance_note": "The title and description suggest a demonstration of advanced wingfoil techniques, but lack specific details on how these skills are developed or demonstrated.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 97,
+                  "sub_lesson_id": 20,
+                  "youtube_id": "4GgkDpLSu1Y",
+                  "title": "J'apprends ma figure de kitesurf la plus difficile.",
+                  "channel": "KITESURF EXPERIENCE by Petar Pavlovic",
+                  "duration": "13:23",
+                  "relevance_note": "The title suggests a tutorial on mastering wingfoil figures, but the description lacks specificity and clarity. The video appears to be a demonstration of a specific skill, which is consistent with the format type.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 98,
+                  "sub_lesson_id": 20,
+                  "youtube_id": "Szh0Kd2UREI",
+                  "title": "Le Gong Plus est-il le meilleur parachute ascensionnel économique ? Avis sur le Gong Plus.",
+                  "channel": "Hydro Gav ",
+                  "duration": "10:46",
+                  "relevance_note": "The title and description do not match the module objective, and the video appears to be unrelated to wingfoil training.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 99,
+                  "sub_lesson_id": 20,
+                  "youtube_id": "iTdGmERu8YY",
+                  "title": "Sol World Cup Brazil final day highlights - champions crowned",
+                  "channel": "WingFoil Racing",
+                  "duration": "4:11",
+                  "relevance_note": "The title and description suggest a demonstration of wingfoil techniques, but lack specific details on the skills being taught or demonstrated.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 100,
+                  "sub_lesson_id": 20,
+                  "youtube_id": "baFYqBCDlIw",
+                  "title": "Wing foil | Première fois sur l'eau",
+                  "channel": "MACkiteboarding",
+                  "duration": "10:59",
+                  "relevance_note": "The title and description suggest a beginner-friendly introduction to wingfoil, but the lack of concrete examples and detailed instructions limits its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "step_id": 9,
+              "order": 2,
+              "title": "Projet : Créer un parcours de wingfoil personnalisé",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 101,
+                  "sub_lesson_id": 21,
+                  "youtube_id": "sQErwtP4gpg",
+                  "title": "TUTO WINGFOIL LIGHTWIND - VOLER DE 0 A 10 NOEUDS ! (ALPINE FOIL 1680/1370 DW)",
+                  "channel": "Hadou BRUNNER",
+                  "duration": "20:43",
+                  "relevance_note": "The title suggests a tutorial on wingfoil flying, but the description lacks specific details about creating a personalized course. The video's focus on flying techniques rather than course design limits its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 102,
+                  "sub_lesson_id": 21,
+                  "youtube_id": "j5t49Y1sZxk",
+                  "title": "Régate Wingfoil au Ponant avec Glisse & Love",
+                  "channel": "Glisse&love",
+                  "duration": "2:09",
+                  "relevance_note": "The title and description suggest a demonstration of wingfoil skills, but lack specific details on the learning objectives and outcomes.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 103,
+                  "sub_lesson_id": 21,
+                  "youtube_id": "Q05uK4T5iKA",
+                  "title": "WINGFOIL TUTO 10 conseils pour progresser plus vite",
+                  "channel": "YANN RIFFLET FREERIDER - Wingfoil Windsurf & more",
+                  "duration": "11:14",
+                  "relevance_note": "The title suggests a tutorial with practical advice, but the description lacks specificity and concrete examples of wingfoil course design.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 104,
+                  "sub_lesson_id": 21,
+                  "youtube_id": "31hUD1HJEVA",
+                  "title": "[Tuto Wingfoil] Conseils, priorités, réglementation: pratiquer et débuter en sécurité le wing foil",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "9:44",
+                  "relevance_note": "The title and description suggest a focus on safety and regulation, but the content appears to be more of a general introduction to wingfoil practice rather than a step-by-step guide to creating a personalized course.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 105,
+                  "sub_lesson_id": 21,
+                  "youtube_id": "WqFLcKYm9WY",
+                  "title": "Downwind foil: mission « aventure » au Levant avec mon pote Kristo!",
+                  "channel": "Watersports Zone by Erwan Jauffroy",
+                  "duration": "4:48",
+                  "relevance_note": "The title and description suggest a demonstration of wingfoil skills, but lack specific details on the learning objectives and outcomes. No transcript is available to assess the content's alignment with the training module's goals.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": 2,
+      "theme": "Claude code",
+      "title": "Claude code",
+      "mode": "balanced",
+      "created_at": "2026-04-29T16:37:07.216189",
+      "updated_at": "2026-04-29T16:37:07.216189",
+      "steps": [
+        {
+          "id": 4,
+          "formation_id": 2,
+          "order": 1,
+          "title": "Fondamentaux",
+          "sub_lessons": [
+            {
+              "id": 8,
+              "step_id": 4,
+              "order": 1,
+              "title": "Introduction à Claude code : les bases",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 36,
+                  "sub_lesson_id": 8,
+                  "youtube_id": "EW1H7Kt7YbU",
+                  "title": "Claude Code: Create your automations without coding",
+                  "channel": "Maxence Gomes | Systèmes IA",
+                  "duration": "30:42",
+                  "relevance_note": "The title and description suggest a tutorial-like format, but lack specific details about the skills to be developed and learning goals. No transcript is available for evaluation.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 37,
+                  "sub_lesson_id": 8,
+                  "youtube_id": "MviRcgKsk-A",
+                  "title": "TUTO / COURS : Comment utiliser Claude Code en tant que développeur",
+                  "channel": "Melvynx",
+                  "duration": "24:40",
+                  "relevance_note": "The title and description suggest a tutorial on using Claude Code, but lack specific details about the content. The video's duration and format type (demo) indicate a hands-on approach, suitable for intermediate learners.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 38,
+                  "sub_lesson_id": 8,
+                  "youtube_id": "lzp-O-_ENfI",
+                  "title": "How to use Claude? The best AI for thinking, writing, and creating",
+                  "channel": "Robin Tyonnel",
+                  "duration": "31:40",
+                  "relevance_note": "The title and description suggest a tutorial on using Claude, which aligns with the module objective. However, without a transcript, it's difficult to assess the content's pedagogical quality.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 39,
+                  "sub_lesson_id": 8,
+                  "youtube_id": "-50BGEYgMr4",
+                  "title": "Everything You Need to Know About Claude AI in 22 Minutes",
+                  "channel": "Yassine Sdiri",
+                  "duration": "21:54",
+                  "relevance_note": "The title suggests a comprehensive introduction to Claude AI, but the description lacks specific details about the content. The video's duration and channel suggest an informative style, but no transcript is available for evaluation.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 40,
+                  "sub_lesson_id": 8,
+                  "youtube_id": "UBpAR_Uewy4",
+                  "title": "Maitrise 90% de Claude Code en 28min (en tant que débutant)",
+                  "channel": "Julien Sanson | Automatisation & AI",
+                  "duration": "28:46",
+                  "relevance_note": "The title suggests mastery of Claude Code, but the description lacks specific details about the skills covered. The format is a demonstration-style video, which may not provide enough concrete examples for an intermediate-level learner.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "step_id": 4,
+              "order": 2,
+              "title": "Importation et manipulation de données en Claude code",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 41,
+                  "sub_lesson_id": 9,
+                  "youtube_id": "7dosmTFkaQI",
+                  "title": "Le guide complet pour utiliser Claude Code dans VS Code",
+                  "channel": "Pentiminax",
+                  "duration": "20:39",
+                  "relevance_note": "The title suggests a comprehensive guide, but the description lacks specific details about the skills to be developed and concrete examples of operations performed in Claude code.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 42,
+                  "sub_lesson_id": 9,
+                  "youtube_id": "hiISl558JGE",
+                  "title": "Traitement et visualisation des données avec Claude Code en 10 minutes",
+                  "channel": "CS Dojo",
+                  "duration": "12:59",
+                  "relevance_note": "The title and description suggest a tutorial-like format, but the lack of concrete examples and detailed instructions limits its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 43,
+                  "sub_lesson_id": 9,
+                  "youtube_id": "VLFrqNrZn4M",
+                  "title": "Comment Switcher de chatGPT à Claude intelligemment, et autres tips de pro",
+                  "channel": "Renaud Dékode",
+                  "duration": "41:24",
+                  "relevance_note": "The title suggests a tutorial on switching from ChatGPT to Claude, but the description lacks specific details about the content and skills covered.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 44,
+                  "sub_lesson_id": 9,
+                  "youtube_id": "-50BGEYgMr4",
+                  "title": "Everything You Need to Know About Claude AI in 22 Minutes",
+                  "channel": "Yassine Sdiri",
+                  "duration": "21:54",
+                  "relevance_note": "The title suggests a general overview of Claude AI, but the description lacks specific details about the training module. The video's duration and channel suggest an introductory or beginner-level content.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 45,
+                  "sub_lesson_id": 9,
+                  "youtube_id": "Sqoya27UweA",
+                  "title": "Comment j'ai créé la base de données Supabase de mon annuaire et importé des données dans Claude ...",
+                  "channel": "Frey Chu",
+                  "duration": "16:44",
+                  "relevance_note": "The video title and description suggest a tutorial on importing CSV files in Claude code, but the lack of explicit mention of the target skills (importer un fichier CSV en Claude code, Effectuer une opération de sélection de données en Claude code) and no concrete examples limit its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "formation_id": 2,
+          "order": 2,
+          "title": "Développement",
+          "sub_lessons": [
+            {
+              "id": 10,
+              "step_id": 5,
+              "order": 1,
+              "title": "Analyse et visualisation des données en Claude code",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 46,
+                  "sub_lesson_id": 10,
+                  "youtube_id": "fDiylmtYlWM",
+                  "title": "Claude Code peut-il analyser des données ?",
+                  "channel": "marimo",
+                  "duration": "28:16",
+                  "relevance_note": "The title suggests a focus on data analysis, but the description is brief and lacks specific details about the content. The video's duration and format suggest a demonstration-style approach, which may not fully align with the intermediate-level learner's needs.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 47,
+                  "sub_lesson_id": 10,
+                  "youtube_id": "hiISl558JGE",
+                  "title": "Traitement et visualisation des données avec Claude Code en 10 minutes",
+                  "channel": "CS Dojo",
+                  "duration": "12:59",
+                  "relevance_note": "The title and description suggest a focus on data analysis and visualization, but the lack of concrete examples and detailed explanations limits the video's pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 48,
+                  "sub_lesson_id": 10,
+                  "youtube_id": "-c_7Q8SzpSY",
+                  "title": "Mastering Pandas for Data Science in 20 Minutes: A Complete Guide for Beginners",
+                  "channel": "LeCoinStat",
+                  "duration": "26:03",
+                  "relevance_note": "The title suggests a comprehensive guide, but the description lacks specificity about the skills to be developed. The video's focus on Pandas for data science indicates an intermediate level target learner.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 49,
+                  "sub_lesson_id": 10,
+                  "youtube_id": "lgg8MgEFVss",
+                  "title": "TUTO / COURS Claude Code COMPLET : Maîtrise Claude Code en 4 heures",
+                  "channel": "Melvynx",
+                  "duration": "4:10:08",
+                  "relevance_note": "The title suggests a comprehensive course, but the description lacks specific details about the content. The video's duration and timecodes indicate a structured approach.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 50,
+                  "sub_lesson_id": 10,
+                  "youtube_id": "NxVZPZygQoo",
+                  "title": "Comment utiliser Claude AI pour l'analyse de données (fonctionnel en 2026)",
+                  "channel": "Harry Helps You",
+                  "duration": "2:14",
+                  "relevance_note": "The title suggests a tutorial on using Claude AI for data analysis, but the description lacks specific details about the content and skills covered.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "step_id": 5,
+              "order": 2,
+              "title": "Avancées en analyse et visualisation des données en Claude code",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 51,
+                  "sub_lesson_id": 11,
+                  "youtube_id": "aQK_MRKveTg",
+                  "title": "30 façons d'utiliser Claude pour la visualisation des données en planification et analyse financi...",
+                  "channel": "Christian Martinez: AI for Finance",
+                  "duration": "12:39",
+                  "relevance_note": "The title suggests a focus on visualization and analysis, but the description is brief and lacks specific details about the content. The video's duration and format suggest a demonstration-style presentation.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 52,
+                  "sub_lesson_id": 11,
+                  "youtube_id": "RLpMbcWaQnE",
+                  "title": "Claude surpasse toutes les IA... 7 exemples concrets !",
+                  "channel": "Elliott Pierret",
+                  "duration": "28:04",
+                  "relevance_note": "The title suggests a focus on Claude's capabilities, but the description lacks specific details about the content. The video's length and format suggest a demonstration-style presentation.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 53,
+                  "sub_lesson_id": 11,
+                  "youtube_id": "-50BGEYgMr4",
+                  "title": "Everything You Need to Know About Claude AI in 22 Minutes",
+                  "channel": "Yassine Sdiri",
+                  "duration": "21:54",
+                  "relevance_note": "The title suggests a focus on Claude AI, but the description lacks specific details about the training module. The video's duration and channel suggest an introductory or beginner-level content, which may not align with the intermediate target learner.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 54,
+                  "sub_lesson_id": 11,
+                  "youtube_id": "wLFqVdlUSbo",
+                  "title": "AI Consultants Who Code Claude Team AI Agents Are Winning This New Market!",
+                  "channel": "Parlons IA",
+                  "duration": "35:45",
+                  "relevance_note": "The title suggests a focus on AI and coding, but the description lacks specificity about the content. The video's duration is moderate, indicating a balanced pace.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 55,
+                  "sub_lesson_id": 11,
+                  "youtube_id": "iRCn9yKBIfo",
+                  "title": "I Tested All the Claude Prompts: Here is the Best One!",
+                  "channel": "Parlons IA",
+                  "duration": "33:19",
+                  "relevance_note": "The title suggests a review of Claude prompts, but the description lacks specific details about the content. The video's focus on demonstrating a single prompt may not fully align with the module objective.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "formation_id": 2,
+          "order": 3,
+          "title": "Maîtrise avancée",
+          "sub_lessons": [
+            {
+              "id": 12,
+              "step_id": 6,
+              "order": 1,
+              "title": "Techniques avancées en Claude code : le clustering",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 56,
+                  "sub_lesson_id": 12,
+                  "youtube_id": "29ZQ3TDGgRQ",
+                  "title": "Créez votre premier modèle d'apprentissage automatique en Python",
+                  "channel": "Data Professor",
+                  "duration": "30:57",
+                  "relevance_note": "The title and description suggest a focus on creating a machine learning model in Python, which aligns with the training module's objective. However, without a transcript, it is difficult to assess the video's content and its alignment with the learning goal.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 57,
+                  "sub_lesson_id": 12,
+                  "youtube_id": "zbIDMNm9NPo",
+                  "title": "Claude Code : le guide que 95% des devs devraient voir",
+                  "channel": "Alex so yes",
+                  "duration": "39:04",
+                  "relevance_note": "The title suggests a comprehensive guide, but the description lacks specificity about the clustering techniques covered. The video's focus on Claude code and its relevance to intermediate learners is clear.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 58,
+                  "sub_lesson_id": 12,
+                  "youtube_id": "AxRprCFZBU8",
+                  "title": "Toutes les fonctionnalités de Claude expliquées dans une seule vidéo",
+                  "channel": "Skill Leap AI",
+                  "duration": "29:27",
+                  "relevance_note": "The title suggests a comprehensive explanation of Claude's features, but the description lacks specificity about the clustering topic. The video duration is relatively short, which may limit the depth of coverage.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 59,
+                  "sub_lesson_id": 12,
+                  "youtube_id": "7Ayg5ZB7PDo",
+                  "title": "Formation Claude Code Avancées : devenir un PRO de Claude Code avec ces méthodes avancées",
+                  "channel": "Melvynx",
+                  "duration": "1:13:42",
+                  "relevance_note": "The title suggests advanced techniques, but the description focuses on mastering Claude code. The format is mixed, indicating a combination of concepts and practical examples.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 60,
+                  "sub_lesson_id": 12,
+                  "youtube_id": "Kqk_i1rkWgg",
+                  "title": "Déployez plus de 20 agents IA en quelques secondes (Claude Code CLUSTER)",
+                  "channel": "Stephen G. Pope",
+                  "duration": "17:51",
+                  "relevance_note": "The title suggests a focus on clustering, but the description is unclear. The video appears to be a demonstration of a specific technique rather than a comprehensive tutorial.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "step_id": 6,
+              "order": 2,
+              "title": "Projet : Analyse de données avec Claude code",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 61,
+                  "sub_lesson_id": 13,
+                  "youtube_id": "JWdXEB2KEsU",
+                  "title": "Analyser TOUTES ses DONNÉES avec Claude ! (Guide Complet)",
+                  "channel": "Henri · ExplorIA",
+                  "duration": "14:19",
+                  "relevance_note": "The title suggests a comprehensive guide, but the description lacks specific details about the skills to be developed and the type of data analysis. The video's duration is relatively short, which may limit its effectiveness.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 62,
+                  "sub_lesson_id": 13,
+                  "youtube_id": "6401hShkLKA",
+                  "title": "Claude Code + Apify : Scrape tout le web en 1 prompt",
+                  "channel": "Meydeey | Automatisation IA",
+                  "duration": "26:44",
+                  "relevance_note": "The title suggests a focus on web scraping, but the description implies a broader scope of skills development, including data analysis and visualization. The video's format is mixed, with some instructional content and others focused on showcasing Apify's features.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 63,
+                  "sub_lesson_id": 13,
+                  "youtube_id": "RLpMbcWaQnE",
+                  "title": "Claude surpasse toutes les IA... 7 exemples concrets !",
+                  "channel": "Elliott Pierret",
+                  "duration": "28:04",
+                  "relevance_note": "The title suggests a demonstration of Claude's capabilities, but the description lacks specificity about the content and relevance to the training module objective.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 64,
+                  "sub_lesson_id": 13,
+                  "youtube_id": "lO2FsJ6q8qk",
+                  "title": "Comprendre 80% de Claude en 28 minutes",
+                  "channel": "theyo",
+                  "duration": "28:47",
+                  "relevance_note": "The title suggests a focus on mastering Claude code, but the description lacks specific details about the content and learning objectives. The link to a roadmap IA and a project collaboration platform may indicate a broader scope than the module objective.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 65,
+                  "sub_lesson_id": 13,
+                  "youtube_id": "rqyAELTyYfk",
+                  "title": "Watch Me Do a Data Analyst Project in Minutes With Claude Code",
+                  "channel": "Avery Smith | Data Analyst",
+                  "duration": "36:38",
+                  "relevance_note": "The title suggests a hands-on approach, but the description lacks specificity about the skills being taught. The video's focus on a personal project may not align with the intermediate level learner's needs.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": 1,
+      "theme": "JavaScript ES6",
+      "title": "JavaScript ES6",
+      "mode": "balanced",
+      "created_at": "2026-04-29T13:00:50.569684",
+      "updated_at": "2026-04-29T13:00:50.569684",
+      "steps": [
+        {
+          "id": 1,
+          "formation_id": 1,
+          "order": 1,
+          "title": "Fondamentaux",
+          "sub_lessons": [
+            {
+              "id": 1,
+              "step_id": 1,
+              "order": 1,
+              "title": "Introduction à JavaScript ES6 : les bases",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 1,
+                  "sub_lesson_id": 1,
+                  "youtube_id": "b1hN2d_CoEw",
+                  "title": "Tout savoir sur les fonctions fléchées et les fonctions régulières",
+                  "channel": "Atomic React",
+                  "duration": "27:42",
+                  "relevance_note": "The title suggests a focus on functions fléchées, but the description implies a broader comparison with régulières. The video's duration and format suggest an introductory level, suitable for intermediate learners.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 2,
+                  "sub_lesson_id": 1,
+                  "youtube_id": "EvHAiskwHvE",
+                  "title": "Apprendre le JavaScript : Les fonctions",
+                  "channel": "Grafikart.fr",
+                  "duration": "38:03",
+                  "relevance_note": "The title suggests a focus on functions, but the description lacks specificity about JavaScript ES6. The video's duration and format type suggest a tutorial-style presentation.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 3,
+                  "sub_lesson_id": 1,
+                  "youtube_id": "wEzb6InOxuA",
+                  "title": "Arrow Functions with JavaScript - React Challenge (3/33)",
+                  "channel": "Louis-Nicolas • Believemy",
+                  "duration": "20:59",
+                  "relevance_note": "The title and description suggest a focus on arrow functions, but the lack of transcript limits the ability to assess the video's alignment with the learning goal.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 4,
+                  "sub_lesson_id": 1,
+                  "youtube_id": "NGea8mF2QMY",
+                  "title": "Les Promesses - Javascript ES6 Promise Tutoriel Fr",
+                  "channel": "DEV ADVENTURE",
+                  "duration": "17:22",
+                  "relevance_note": "The title and description suggest a tutorial on using promises in JavaScript ES6, which aligns with the module objective. However, no transcript is available to assess the content's accuracy and depth.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 5,
+                  "sub_lesson_id": 1,
+                  "youtube_id": "42E7iLumsE8",
+                  "title": "JavaScript ES6 : Apprendre import et export",
+                  "channel": "Tuto Dev Web",
+                  "duration": "15:58",
+                  "relevance_note": "The title suggests a focus on import and export, but the description does not provide enough information about the content. The video is part of a playlist that covers various topics in JavaScript ES6, indicating a mixed format.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "step_id": 1,
+              "order": 2,
+              "title": "Variables et types de données en JavaScript ES6",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 6,
+                  "sub_lesson_id": 2,
+                  "youtube_id": "GU8kxJ3P67I",
+                  "title": "Apprendre le JavaScript : Les variables",
+                  "channel": "Grafikart.fr",
+                  "duration": "27:52",
+                  "relevance_note": "The title and description suggest a focus on variables, but the lack of concrete examples and detailed explanations limits the pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 7,
+                  "sub_lesson_id": 2,
+                  "youtube_id": "I4XUOgiGsOw",
+                  "title": "Javascript moderne (ES6 - ES11) #2 La notion des variables (Usage de mot clé Let et Const) [Tuto fr]",
+                  "channel": "Malakisi",
+                  "duration": "9:37",
+                  "relevance_note": "The title and description suggest a focus on using variables and types of data in JavaScript ES6, aligning with the module objective. The video's duration and format as a tutorial also support this goal.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 8,
+                  "sub_lesson_id": 2,
+                  "youtube_id": "nZ1DMMsyVyI",
+                  "title": "JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)",
+                  "channel": "freeCodeCamp.org",
+                  "duration": "1:05:27",
+                  "relevance_note": "The title and description suggest a focus on modern JavaScript features, which aligns with the target learner's skill level. However, without a transcript, it is difficult to assess the instructor's teaching quality.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 9,
+                  "sub_lesson_id": 2,
+                  "youtube_id": "1mgLWu69ijU",
+                  "title": "Var vs Const vs Let (ES6) - Beau teaches JavaScript",
+                  "channel": "freeCodeCamp.org",
+                  "duration": "3:41",
+                  "relevance_note": "The title and description clearly indicate the focus on variables, types of data, and constants in JavaScript ES6. The video's concise duration suggests a focused learning objective.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 10,
+                  "sub_lesson_id": 2,
+                  "youtube_id": "s_VMwHFSjXY",
+                  "title": "[1/??] Les commentaires & les variables | Javascript & ES6/7/8 pour débutants 2019",
+                  "channel": "getCodingKnowledge",
+                  "duration": "9:54",
+                  "relevance_note": "The title and description suggest a focus on variables and types of data in JavaScript ES6, but the lack of concrete examples and detailed explanations limits its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "step_id": 1,
+              "order": 3,
+              "title": "Fonctions et modules en JavaScript ES6",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 11,
+                  "sub_lesson_id": 3,
+                  "youtube_id": "7QUhW3KhJiA",
+                  "title": "JavaScript ES6 Modules Tutorial with example",
+                  "channel": "Learn Web Dev with Norbert",
+                  "duration": "37:27",
+                  "relevance_note": "The title and description suggest a tutorial on ES6 modules, which aligns with the module objective. However, without a transcript, it's difficult to assess the instructor's teaching quality.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 12,
+                  "sub_lesson_id": 3,
+                  "youtube_id": "rRgD1yVwIvE",
+                  "title": "Fonctions et tableaux d'ordre supérieur JavaScript",
+                  "channel": "Traversy Media",
+                  "duration": "34:56",
+                  "relevance_note": "The title and description suggest a focus on high-order functions, modules ES6, and destructuring, which aligns with the module objective. However, without a transcript, it's difficult to assess the instructor's teaching quality and the learner's engagement.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 13,
+                  "sub_lesson_id": 3,
+                  "youtube_id": "DJewHNOFqD0",
+                  "title": "Learn JavaScript: Modules",
+                  "channel": "Grafikart.fr",
+                  "duration": "11:32",
+                  "relevance_note": "The title and description suggest a focus on modules in JavaScript ES6, but lack specific details about the use of high-order functions and destructuring.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 14,
+                  "sub_lesson_id": 3,
+                  "youtube_id": "KeBxopnhizw",
+                  "title": "JavaScript Modules Crash Course",
+                  "channel": "freeCodeCamp.org",
+                  "duration": "48:38",
+                  "relevance_note": "The title and description suggest a comprehensive introduction to JavaScript modules, but the lack of transcript limits the ability to assess the depth of coverage.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 15,
+                  "sub_lesson_id": 3,
+                  "youtube_id": "NCwa_xi0Uuc",
+                  "title": "ES6 Tutorial: Learn Modern JavaScript in 1 Hour",
+                  "channel": "Programming with Mosh",
+                  "duration": "50:05",
+                  "relevance_note": "The title suggests a focus on ES6, but the description is too general and lacks specific details about HOF, modules, and destructuring. The format appears to be a mix of tutorial and demonstration.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "formation_id": 1,
+          "order": 2,
+          "title": "Développement",
+          "sub_lessons": [
+            {
+              "id": 4,
+              "step_id": 2,
+              "order": 1,
+              "title": "Travailler avec les objets et les tableaux en JavaScript ES6",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 16,
+                  "sub_lesson_id": 4,
+                  "youtube_id": "X0ipw1k7ygU",
+                  "title": "Tutoriel JavaScript moderne n° 5 : Objets",
+                  "channel": "Net Ninja",
+                  "duration": "37:36",
+                  "relevance_note": "The title and description suggest a focus on object manipulation in JavaScript ES6, aligning with the module objective. However, without a transcript, it's difficult to assess the instructor's teaching quality.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 17,
+                  "sub_lesson_id": 4,
+                  "youtube_id": "-22uczx3Tb4",
+                  "title": "Tutoriel JavaScript : Programmation orientée Objet en Javascript",
+                  "channel": "Grafikart.fr",
+                  "duration": "25:33",
+                  "relevance_note": "The title and description suggest a focus on object-oriented programming in JavaScript ES6, but lack specific details about the methods of manipulation. The video's duration is relatively short, which may limit the depth of coverage.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 18,
+                  "sub_lesson_id": 4,
+                  "youtube_id": "mFdiyaTKr6w",
+                  "title": "LES ARRAYS (TABLEAUX) EN JAVASCRIPT",
+                  "channel": "Mike Codeur",
+                  "duration": "31:12",
+                  "relevance_note": "The title and description suggest a focus on arrays in JavaScript ES6, but the lack of concrete examples and detailed explanations limits the pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 19,
+                  "sub_lesson_id": 4,
+                  "youtube_id": "mRQdAGIG6NM",
+                  "title": "Les objets en JavaScript (extrait gratuit) [M1L09]",
+                  "channel": "JavaScript de Zéro",
+                  "duration": "16:06",
+                  "relevance_note": "The title and description suggest a focus on object manipulation in JavaScript ES6, aligning with the module objective. However, without a transcript, it's difficult to assess the instructor's clarity and effectiveness.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 20,
+                  "sub_lesson_id": 4,
+                  "youtube_id": "opaJIPVX_Kg",
+                  "title": "Les Objets en JavaScript",
+                  "channel": "Tuto Dev Web",
+                  "duration": "30:34",
+                  "relevance_note": "The title and description suggest a focus on object manipulation in JavaScript ES6, but lack specific details about the content. The video's duration and playlist placement imply a comprehensive approach to teaching JavaScript ES6.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "step_id": 2,
+              "order": 2,
+              "title": "Travailler avec les dates et les heures en JavaScript ES6",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 21,
+                  "sub_lesson_id": 5,
+                  "youtube_id": "-eRsWqwcPuk",
+                  "title": "The Date Object - Getting, Setting & Formatting Dates in JavaScript - Tutorial For Beginners",
+                  "channel": "dcode",
+                  "duration": "18:02",
+                  "relevance_note": "The title and description suggest a tutorial on using dates in JavaScript ES6, but lack specific details about the learning objectives and outcomes.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 22,
+                  "sub_lesson_id": 5,
+                  "youtube_id": "hibxWv9vrvc",
+                  "title": "JavaScript #15 - dates",
+                  "channel": "EvoluNoob",
+                  "duration": "13:51",
+                  "relevance_note": "The title and description suggest a clear focus on dates and hours in JavaScript ES6, but lack specific details about the content. The video's duration is also relatively short, which may indicate a simplified or introductory approach.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 23,
+                  "sub_lesson_id": 5,
+                  "youtube_id": "50cDIUKlQ8g",
+                  "title": "How to Display Dates and Times in JavaScript - Beginner's Tutorial",
+                  "channel": "dcode",
+                  "duration": "18:14",
+                  "relevance_note": "The title and description suggest a beginner's tutorial, but the topic aligns with intermediate-level skills. The video provides a demo-style format without concrete examples.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 24,
+                  "sub_lesson_id": 5,
+                  "youtube_id": "Z3M4CV5tLnY",
+                  "title": "JavaScript ES6 : Qu'est-ce que this ? Que vaut this ?",
+                  "channel": "Tuto Dev Web",
+                  "duration": "14:58",
+                  "relevance_note": "The title and description suggest a focus on JavaScript ES6, but the lack of transcript limits the ability to assess the content's alignment with the learning goal. The video appears to be a mix of explanation and demonstration.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 25,
+                  "sub_lesson_id": 5,
+                  "youtube_id": "pOJnqMHN9Hs",
+                  "title": "JavaScript : 12-Les dates",
+                  "channel": "Dev Propulsor",
+                  "duration": "1:00:50",
+                  "relevance_note": "The title and description suggest a focus on explaining date manipulation in JavaScript ES6, but the lack of concrete examples and detailed explanations limits its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "step_id": 2,
+              "order": 3,
+              "title": "Avancé : les async/await et les promises en JavaScript ES6",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 26,
+                  "sub_lesson_id": 6,
+                  "youtube_id": "TnhCX0KkPqs",
+                  "title": "JavaScript Promises  -- Tutorial for Beginners",
+                  "channel": "ColorCode",
+                  "duration": "37:05",
+                  "relevance_note": "",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 27,
+                  "sub_lesson_id": 6,
+                  "youtube_id": "DWfD5y6uisU",
+                  "title": "Javascript (19) - Gestion des erreurs et des exceptions - try...catch",
+                  "channel": "Mohamed Chiny",
+                  "duration": "13:29",
+                  "relevance_note": "",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 28,
+                  "sub_lesson_id": 6,
+                  "youtube_id": "670f71LTWpM",
+                  "title": "Asynchronous JavaScript in ~10 Minutes - Callbacks, Promises, and Async/Await",
+                  "channel": "James Q Quick",
+                  "duration": "13:55",
+                  "relevance_note": "The title and description suggest a focus on asynchronous JavaScript concepts, but the lack of a transcript limits the ability to assess the video's content. The title is concise and relevant, while the description provides some context about the topics covered.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 29,
+                  "sub_lesson_id": 6,
+                  "youtube_id": "05mKXSdkCJg",
+                  "title": "Learn JavaScript: Promise",
+                  "channel": "Grafikart.fr",
+                  "duration": "27:33",
+                  "relevance_note": "The title and description suggest a focus on promises, but the lack of concrete examples and detailed explanations limits its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 30,
+                  "sub_lesson_id": 6,
+                  "youtube_id": "NGea8mF2QMY",
+                  "title": "Les Promesses - Javascript ES6 Promise Tutoriel Fr",
+                  "channel": "DEV ADVENTURE",
+                  "duration": "17:22",
+                  "relevance_note": "The title and description suggest a tutorial on using promises in JavaScript ES6, which aligns with the module objective. However, no transcript is available to assess the video's content.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "formation_id": 1,
+          "order": 3,
+          "title": "Maîtrise avancée",
+          "sub_lessons": [
+            {
+              "id": 7,
+              "step_id": 3,
+              "order": 1,
+              "title": "Projet : Créer un jeu de cartes avec JavaScript ES6",
+              "completed": false,
+              "videos": [
+                {
+                  "id": 31,
+                  "sub_lesson_id": 7,
+                  "youtube_id": "FHdIuYYY8TQ",
+                  "title": "[#4] Coder un morpion en javascript | 20 Semaines 20 Projets | Projet Javascript pour débutants",
+                  "channel": "getCodingKnowledge",
+                  "duration": "25:52",
+                  "relevance_note": "The video title and description suggest a project-based learning approach, but the lack of concrete examples and detailed explanations limits its pedagogical value.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 32,
+                  "sub_lesson_id": 7,
+                  "youtube_id": "AvMZXU9Z_s8",
+                  "title": "[#3] Papier Caillou Ciseaux Javascript | 20 Semaines 20 Projets | Projet Javascript pour débutants",
+                  "channel": "getCodingKnowledge",
+                  "duration": "16:20",
+                  "relevance_note": "The title and description suggest a project-based learning approach, but lack specificity on the skills to be developed and the learning goals. The video's focus on creating a mini-game with JavaScript ES6 aligns with the module objective.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 33,
+                  "sub_lesson_id": 7,
+                  "youtube_id": "-FeRohYDGIQ",
+                  "title": "Tutoriel - 2025 - Javascript - ES6 - ECMASCRIPT - CommonJS - On fait le point",
+                  "channel": "LaFibreDuDev",
+                  "duration": "45:02",
+                  "relevance_note": "The title and description suggest a tutorial on JavaScript ES6, but lack specific details about the project or learning objectives. The video's focus on historical context and basic syntax may not be sufficient to meet the intermediate-level learner's needs.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 34,
+                  "sub_lesson_id": 7,
+                  "youtube_id": "vZtuqrC4kKA",
+                  "title": "JavaScript ES6 : Utiliser let const au lieu de var",
+                  "channel": "Tuto Dev Web",
+                  "duration": "8:20",
+                  "relevance_note": "The video focuses on a specific aspect of JavaScript ES6, but lacks concrete examples and project-based learning. The content is clear and concise, suitable for intermediate learners.",
+                  "watched": false,
+                  "last_position_s": 0
+                },
+                {
+                  "id": 35,
+                  "sub_lesson_id": 7,
+                  "youtube_id": "XNr8jazPN4E",
+                  "title": "Développement Moderne Javascript et ES6,ES7",
+                  "channel": "John Taieb",
+                  "duration": "3:00",
+                  "relevance_note": "The title suggests a focus on modern JavaScript development, but the description lacks specific details about the project. The video's duration is short, indicating a potentially superficial coverage of the topic.",
+                  "watched": false,
+                  "last_position_s": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "progress": 0.0
+    }
+  ]
 }
